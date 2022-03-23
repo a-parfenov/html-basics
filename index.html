@@ -11,36 +11,37 @@
 </head>
 
 <body>
-	<header>
-		<h1>Портфолио Java Junior разработчика</h1>
-	</header>
-	<div class="info">
-		<div class="info-text">
-			<img alt="image" width="180px" src="./image/647490977.jpeg">
-			<h3>Антон Парфенов</h3>
-			<p>Имею отличные <strong>софт-скилы</strong>. Проходил обучение коммуникации с погружением в продажи. 
-				<br>Могу вывозить трудных коллег и, если потребуется, заказчиков любой сложности</p>
+	<div>
+		<container>
+		</div>
+		<div class="header1">
+			<h1>Портфолио Java Junior разработчика</h1>
+		</div>
+		<div class="info">
+			<div class="info-text card">
+				<img alt="image" src="./image/647490977.jpeg" class="avatar">
+				<h3>Антон Парфенов</h3>
+				<p>Имею отличные <strong>софт-скилы</strong>. Проходил обучение коммуникации с погружением в продажи. 
+					<br>Могу вывозить трудных коллег и, если потребуется, заказчиков любой сложности</p>
 
-			<p>В работе использую техники тайм-менеджмента</p>
-				
-			<p>Тщательно вникаю во все новое
-				<br>
-			Готов быстро учиться, чтобы <strong>в кратчайшие сроки</strong> 
-				стать <strong>максимально полезным</strong> членом команды
-				<br>
-			Прекрасно понимаю, насколько важна слаженная командная работа, потому всегда 
-				<em>выстраиваю отличные отношения с коллегами</em></p>
-				
-			<p><strong>Работу воспринимаю</strong> не как просто источник дохода, а <strong>всерьез</strong>. 
-				За задачу берусь так, будто это мой личный стартап</p>
+				<p>В работе использую техники тайм-менеджмента</p>
+
+				<p>Тщательно вникаю во все новое
+					<br>
+				Готов быстро учиться, чтобы <strong>в кратчайшие сроки</strong> 
+					стать <strong>максимально полезным</strong> членом команды
+					<br>
+				Прекрасно понимаю, насколько важна слаженная командная работа, потому всегда 
+					<em>выстраиваю отличные отношения с коллегами</em></p>
+
+				<p><strong>Работу воспринимаю</strong> не как просто источник дохода, а <strong>всерьез</strong>. 
+					За задачу берусь так, будто это мой личный стартап</p>
+			</div>
 		</div>
 
-		<br>
-		<br>
-
-		<footer>
+		<div class="info-icon card">
 			<a href="https://t.me/ParfenovAnton" target="_blank">
-				<img alt="Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" >
+				<img alt="Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg">
 			</a>
 			<a href="https://www.linkedin.com/in/parfenov21/" target="_blank">
 				<img alt="Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" >
@@ -48,61 +49,56 @@
 			<a href="mailto:a.parfenov.job@gmail.com" target="_blank">
 				<img alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/gmail.svg" >
 			</a>
-		</footer>
-	</div>
-	<br>
-	<br>
-
-	<h3>Мои хобби:</h3>
-	<ol>
-		<li>Катание на сноуборде</li>
-		<li>Шахматы</li>
-		<li>Программирование</li>
-		<li>Путешествия</li>
-	</ol>
-
-	<br>
-
-	<table>
-		<thead>
-			<h3>Последнее место работы</h3>
-			<tr>
-				<th>Название компании</th>
-				<th>Должность</th>
-				<th>Год</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Materia</td>
-				<td>Аналитик</td>
-				<td>2020-2021</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<br>
-	<br>
-
-	<form action="">
-		<h3>Обратная связь</h3>
-		<div>
-			<label for="Ваше имя">Ваше имя</label>
-			<input type="text" id="text" placeholder="Введите имя">
 		</div>
 
-		<div>
-			<label for="email">Ваш email</label>
-			<input type="email" id="email" placeholder="Введите email">
+		<div class="card bg-1">
+			<h2>Мои хобби:</h2>
+			<ol class="list">
+				<li>Катание на сноуборде</li>
+				<li>Шахматы</li>
+				<li>Программирование</li>
+				<li>Путешествия</li>
+			</ol>
 		</div>
 
-		<div>
-			<label for="message"></label>
-			<br>
-			<textarea id="message" cols="30" rows="10" placeholder="Введите сообщение ..."></textarea>
+		<div class="card bg-2">
+			<table class="work">
+				<h2>Последнее место работы</h2>
+				<!-- <tr>
+					<th>Название компании</th>
+					<th>Должность</th>
+					<th>Год</th>
+				</tr> -->
+				<tr>
+					<td>Materia</td>
+					<td>Аналитик</td>
+					<td>2020-2021</td>
+				</tr>
+			</table>
 		</div>
 
-		<button>Отправить форму</button>
-	</form>
+		<form action="" class="card bg-3">
+			<h2>Обратная связь</h2>
+			
+			<div class="form-row">
+				<div class="form-group">
+					<label for="Ваше имя">Ваше имя</label>
+					<input type="text" id="text" placeholder="Введите имя">
+				</div>
+				<div class="form-group">
+					<label for="email">Ваш email</label>
+					<input type="email" id="email" placeholder="Введите email">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="message"></label>
+				<br>
+				<textarea id="message" cols="30" rows="10" placeholder="Введите сообщение ..."></textarea>
+			</div>
+
+			<button class="btn">Отправить форму</button>
+		</div>
+	</container>
 </body>
 </html>
