@@ -7,39 +7,51 @@
 	<title>HTML Course</title>
 	<meta name="keywords" content="html, course, css">
 	<meta name="description" content="Это базовый курс по html">
+	<link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-	<h1>Антон Парфенов</h1>
-	<p>Имею отличные <strong>софт-скилы</strong>. Проходил обучение коммуникации с погружением в продажи. 
-		<br>Могу вывозить трудных коллег и, если потребуется, заказчиков любой сложности</p>
+	<header>
+		<h1>Портфолио Java Junior разработчика</h1>
+	</header>
+	<div class="info">
+		<div class="info-text">
+			<img alt="image" width="180px" src="./image/647490977.jpeg">
+			<h3>Антон Парфенов</h3>
+			<p>Имею отличные <strong>софт-скилы</strong>. Проходил обучение коммуникации с погружением в продажи. 
+				<br>Могу вывозить трудных коллег и, если потребуется, заказчиков любой сложности</p>
 
-	<p>В работе использую техники тайм-менеджмента</p>
-		
-	<p>Тщательно вникаю во все новое
+			<p>В работе использую техники тайм-менеджмента</p>
+				
+			<p>Тщательно вникаю во все новое
+				<br>
+			Готов быстро учиться, чтобы <strong>в кратчайшие сроки</strong> 
+				стать <strong>максимально полезным</strong> членом команды
+				<br>
+			Прекрасно понимаю, насколько важна слаженная командная работа, потому всегда 
+				<em>выстраиваю отличные отношения с коллегами</em></p>
+				
+			<p><strong>Работу воспринимаю</strong> не как просто источник дохода, а <strong>всерьез</strong>. 
+				За задачу берусь так, будто это мой личный стартап</p>
+		</div>
+
 		<br>
-	Готов быстро учиться, чтобы <strong>в кратчайшие сроки</strong> 
-		стать <strong>максимально полезным</strong> членом команды
 		<br>
-	Прекрасно понимаю, насколько важна слаженная командная работа, потому всегда 
-		<em>выстраиваю отличные отношения с коллегами</em></p>
-		
-	<p><strong>Работу воспринимаю</strong> не как просто источник дохода, а <strong>всерьез</strong>. 
-		За задачу берусь так, будто это мой личный стартап</p>
 
-
-
-	<a href="https://t.me/ParfenovAnton" target="_blank">
-		<img alt="Telegram" width="22px" align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" >
-	</a>
-	<a href="https://www.linkedin.com/in/parfenov21/" target="_blank">
-		<img alt="Linkdein" width="22px" align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" >
-	  </a>
-	<a href="mailto:a.parfenov.job@gmail.com" target="_blank">
-		<img alt="Gmail" width="22px" align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/gmail.svg" >
-	</a>
+		<footer>
+			<a href="https://t.me/ParfenovAnton" target="_blank">
+				<img alt="Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" >
+			</a>
+			<a href="https://www.linkedin.com/in/parfenov21/" target="_blank">
+				<img alt="Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" >
+			</a>
+			<a href="mailto:a.parfenov.job@gmail.com" target="_blank">
+				<img alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/gmail.svg" >
+			</a>
+		</footer>
+	</div>
 	<br>
-	
-
+	<br>
 
 	<h3>Мои хобби:</h3>
 	<ol>
@@ -49,8 +61,11 @@
 		<li>Путешествия</li>
 	</ol>
 
+	<br>
+
 	<table>
 		<thead>
+			<h3>Последнее место работы</h3>
 			<tr>
 				<th>Название компании</th>
 				<th>Должность</th>
@@ -65,10 +80,12 @@
 			</tr>
 		</tbody>
 	</table>
-
-
+	
+	<br>
+	<br>
 
 	<form action="">
+		<h3>Обратная связь</h3>
 		<div>
 			<label for="Ваше имя">Ваше имя</label>
 			<input type="text" id="text" placeholder="Введите имя">
@@ -80,7 +97,7 @@
 		</div>
 
 		<div>
-			<label for="message">Сообщение</label>
+			<label for="message"></label>
 			<br>
 			<textarea id="message" cols="30" rows="10" placeholder="Введите сообщение ..."></textarea>
 		</div>
