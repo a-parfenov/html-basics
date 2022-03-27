@@ -11,13 +11,6 @@ body {
 	/* padding: 15px 20px;  */
 }
 
-@media (max-width: 650px) {
-	.card {
-		/* display: block; */
-		text-align: center;
-	}
-}
-
 .container {
 	max-width: 750px;
 	margin: auto;
@@ -36,12 +29,6 @@ body {
 	display: flex;
 }
 
-@media (max-width: 650px) {
-	.from-row {
-		display: block;
-	}
-}
-
 .form-row .form-group {
 	margin-right: 20px;
 	width: 50%;
@@ -55,14 +42,6 @@ body {
 
 .form-row .form-group:last-child {
 	margin-right: 0;
-}
-
-@media (max-width: 650px) {
-	.form-row .form-group {
-		width: 100%;
-		margin-right: 0px;
-		margin-bottom: 10px;
-	}
 }
 
 .form-group input,
@@ -97,34 +76,6 @@ body {
 .info-text {
 	background: rgb(211, 245, 255);
 	border-radius: 10px;
-}
-
-@media (max-width: 650px) {
-	.info {
-		display: block;
-		text-align: center;
-	}
-	.card p {
-		text-align: left;
-	}
-}
-
-@media (max-width: 578px) {
-	.header1 h1 {
-		font-size: 20px;
-	}
-	.info {
-		margin-top: 73px;
-	}
-}
-
-@media (max-width: 424px) {
-	.header1 h1 {
-		font-size: 20px;
-	}
-	.info {
-		margin-top: 95px;
-	}
 }
 
 .bg-1 {
@@ -210,4 +161,54 @@ body {
 .work td:nth-child(2),
 .work td:nth-child(3) {
 	color: #545a65;
+}
+
+
+@media (max-width: 650px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+	.card p {
+		text-align: left;
+	}
+}
+
+@media (max-width: 578px) {
+	.header1 h1 {
+		font-size: 20px;
+	}
+	.info {
+		margin-top: 73px;
+	}
+}
+
+@media (max-width: 424px) {
+	.header1 h1 {
+		font-size: 20px;
+	}
+	.info {
+		margin-top: 95px;
+	}
+}
+
+@media (max-width: 650px) {
+	.form-row .form-group {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 650px) {
+	.card {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 650px) {
+	.from-row {
+		display: block;
+	}
 }
